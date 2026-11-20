@@ -118,47 +118,6 @@ SHAHEER
 
 You can modify `examples/hello.net` (or pass your own file) to experiment with the language's currently implemented syntax.
 
-## Project Structure
-
-```text
-shaheerLang/
-│
-├── include/
-│   └── shaheer/
-│       ├── Lexer.h
-│       ├── Parser.h
-│       ├── Interpreter.h
-│       ├── Token.h
-│       ├── Expr.h
-│       ├── Stmt.h
-│       ├── Environment.h
-│       └── Value.h
-│
-├── src/
-│   ├── lexer/
-│   │   └── Lexer.cpp
-│   ├── parser/
-│   │   └── Parser.cpp
-│   ├── interpreter/
-│   │   └── Interpreter.cpp
-│   ├── runtime/
-│   │   ├── Environment.cpp
-│   │   └── Value.cpp
-│   └── main.cpp
-│
-├── tests/
-│   ├── lexer_tests.cpp
-│   ├── parser_tests.cpp
-│   └── interpreter_tests.cpp
-│
-├── examples/
-│   └── hello.net
-│
-├── CMakeLists.txt
-├── README.md
-└── .gitignore
-```
-
 ### Core Components
 
 | Component | Responsibility |
